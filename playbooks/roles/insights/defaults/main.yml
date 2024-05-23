@@ -181,7 +181,7 @@ INSIGHTS_REPOS:
     DOMAIN: "{{ COMMON_GIT_MIRROR }}"
     PATH: huyvt-2722
     REPO: edx-analytics-dashboard.git
-    VERSION: "{{ INSIGHTS_VERSION }}"
+    VERSION: open-release/koa.master
     DESTINATION: "{{ insights_code_dir }}"
     SSH_KEY: "{{ INSIGHTS_GIT_IDENTITY }}"
 
